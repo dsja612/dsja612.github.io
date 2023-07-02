@@ -2,9 +2,9 @@ import React from 'react';
 import { Box, Flex, Text, Image } from '@chakra-ui/react';
 import Navbar from './Navbar';
 
-const Experience: React.FC = () => {
+const Academics: React.FC = () => {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font" id="experience">
+    <main className="text-gray-400 bg-gray-900 body-font" id="academics">
     <Navbar />
     <Flex direction="column" align="center" justify="center" minHeight="100vh" bg="gray.900" color="white">
         <Text fontSize="3xl" fontWeight="bold" mr={4}>
@@ -15,4 +15,4 @@ const Experience: React.FC = () => {
   );
 };
 
-export default Experience;
+export default Academics;
