@@ -11,9 +11,9 @@ const AboutMe: React.FC = () => {
         Hello, I'm Dylan!
       </Text>
       <Text fontSize="xl" marginLeft="300px" align="center" marginRight="300px">
-        I am a Year 3 Computer Science student at the National University of Singapore. I am passionate about software development and data engineering,
-        and I am always looking for opportunities to learn and grow.
-        In my free time, I like to hit the gym, play video games, and hunt for good food.
+        I am a Year 3 Computer Science student at the National University of Singapore. <br/> I am passionate about software development and data engineering,
+        and I am always looking for opportunities to learn and grow. <br/>
+        In my free time, I like to hit the gym, play video games, and travel for good food.
       </Text>
     </Flex>
   );

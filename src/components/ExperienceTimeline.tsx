@@ -1,6 +1,6 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaBriefcase } from 'react-icons/fa';
+import { FaBriefcase, FaStopCircle } from 'react-icons/fa';
 import { Text } from '@chakra-ui/react';
 
 const workExperience = [
@@ -69,6 +69,10 @@ const ExperienceTimeline = () => {
           <p>{experience.description}</p>
         </VerticalTimelineElement>
       ))}
+        <VerticalTimelineElement
+          iconStyle={{ background: 'rgb(195, 50, 50)', color: 'brand.700' }}
+          icon={ <FaStopCircle /> } >
+        </VerticalTimelineElement>
     </VerticalTimeline>
   );
 };
