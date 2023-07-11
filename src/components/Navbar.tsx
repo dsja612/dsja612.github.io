@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
         p={4}
         zIndex={999}
       >
-        <Link to="#aboutus" smooth>
+        <Link to="#about" smooth>
           <Text fontSize="lg" fontWeight="bold" color="brand.50">
             DYLAN SNG
           </Text>
