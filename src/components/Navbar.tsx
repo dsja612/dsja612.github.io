@@ -5,6 +5,9 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar: React.FC = () => {
+  const redirect = (url: string) => {
+    window.open(url, '_blank');
+  }
   return (
     <BrowserRouter>
       <Flex
@@ -45,7 +48,7 @@ const Navbar: React.FC = () => {
             ml={4}
             color="brand.200"
             cursor="pointer"
-            onClick={() => window.open('https://sg.linkedin.com/in/dylansja', '_blank')}
+            onClick= { () => redirect('https://www.linkedin.com/in/dylansng/') }
           />
           <Icon
             as={FaGithub}
@@ -53,7 +56,7 @@ const Navbar: React.FC = () => {
             ml={4}
             color="brand.200"
             cursor="pointer"
-            onClick={() => window.open('https://github.com/dsja612', '_blank')}
+            onClick={ () => redirect('https://github.com/dsja612') }
           />
           <Icon
             as={FaEnvelope}
@@ -61,7 +64,7 @@ const Navbar: React.FC = () => {
             ml={4}
             color="brand.200"
             cursor="pointer"
-            onClick={() => window.open('mailto:dsja612@gmail.com')}
+            onClick={ () => redirect('mailto:dsja612@gmail.com') }
           />
         </Flex>
       </Flex>

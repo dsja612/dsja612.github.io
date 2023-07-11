@@ -10,9 +10,10 @@ const AboutMe: React.FC = () => {
       <Text fontSize="3xl" fontWeight="bold" mr={4}>
         Hello, I'm Dylan!
       </Text>
-      <Text fontSize="xl" marginLeft="40px" align="center" marginRight="40px">
-        I am a Year 3 Computer Science student at the National University of Singapore. I am passionate about software development and I am always looking for opportunities to learn and grow.
-        My focus area of study is on databases, and I have experience in software engineering, AI and machine learning, and data analytics.
+      <Text fontSize="xl" marginLeft="300px" align="center" marginRight="300px">
+        I am a Year 3 Computer Science student at the National University of Singapore. I am passionate about software development and data engineering,
+        and I am always looking for opportunities to learn and grow.
+        In my free time, I like to hit the gym, play video games, and hunt for good food.
       </Text>
     </Flex>
   );
